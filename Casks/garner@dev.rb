@@ -5,31 +5,31 @@ cask "garner@dev" do
   on_macos do
     on_arm do
       sha256 "e16253a807af4a8a2a7e78bf1879c4aa059ac472c0c13e42e40c8891b02b2862"
-      url "https://github.com/trucke/garner/releases/download/v#{version}/garner-v#{version}-darwin-arm64"
+      url "https://github.com/sudokvn/garner/releases/download/v#{version}/garner-v#{version}-darwin-arm64"
       binary "garner-v0.9.0-rc.4-darwin-arm64", target: "garner"
     end
     on_intel do
       sha256 "b6baf77bfeeaba6e3ad19e54b57d0c587d85eda58d4424f52dc845f595938d88"
-      url "https://github.com/trucke/garner/releases/download/v#{version}/garner-v#{version}-darwin-amd64"
+      url "https://github.com/sudokvn/garner/releases/download/v#{version}/garner-v#{version}-darwin-amd64"
       binary "garner-v0.9.0-rc.4-darwin-amd64", target: "garner"
     end
   end
   on_linux do
     on_arm do
       sha256 "de7eeab500fbc28eec771abfdd114ac8bb773b471ed8839fbabc96a8c6a3bc51"
-      url "https://github.com/trucke/garner/releases/download/v#{version}/garner-v#{version}-linux-arm64"
+      url "https://github.com/sudokvn/garner/releases/download/v#{version}/garner-v#{version}-linux-arm64"
       binary "garner-v0.9.0-rc.4-linux-arm64", target: "garner"
     end
     on_intel do
       sha256 "dea86347706b577ee088a2d944bf34e7f54504429f49bdf8ade60b25d447b6ea"
-      url "https://github.com/trucke/garner/releases/download/v#{version}/garner-v#{version}-linux-amd64"
+      url "https://github.com/sudokvn/garner/releases/download/v#{version}/garner-v#{version}-linux-amd64"
       binary "garner-v0.9.0-rc.4-linux-amd64", target: "garner"
     end
   end
 
   name "garner@dev"
   desc "Terminal interface for garner, a self-hosted TV and anime manager; release candidates and stable releases"
-  homepage "https://github.com/trucke/garner"
+  homepage "https://github.com/sudokvn/garner"
 
   livecheck do
     skip "Auto-generated on release."
